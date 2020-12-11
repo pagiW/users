@@ -7,3 +7,8 @@ export const edit = (payload) => ({
     type: 'EDIT',
     payload,
 });
+
+export const delet = (payload) => ({
+    type: 'DELETE',
+    payload,
+});

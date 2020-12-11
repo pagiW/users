@@ -61,3 +61,13 @@ button:focus, button:hover {
 .aButton:focus {
     text-decoration: underline;
 }
+
+.deletebutton {
+    width: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .deletebutton {
+        width: 50%;
+    }
+}

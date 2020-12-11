@@ -22,6 +22,11 @@ const reducer = (state, action) => {
             } else {
                 return {...state};
             }
+        case 'DELETE':
+            return {
+                ...state,
+                users: state.users.filter(users => users.password !== action.payload),
+            }
         default:
             return {...state};
     }
