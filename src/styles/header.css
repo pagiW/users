@@ -1,0 +1,38 @@
+header {
+    background-color: purple;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.headerList {
+    display: flex;
+}
+
+.headerList li {
+    margin: 0 10px;
+}
+
+.headerList a {
+    color: white;
+}
+
+.headerList a:hover, a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    .headerList {
+        display: block;
+        text-align: center;
+    }
+    .headerList li {
+        margin: 5px 10px;
+    }
+}

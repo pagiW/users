@@ -1,0 +1,26 @@
+.card {
+    text-align: center;
+    width: 600px;
+    border: 7.5px solid black;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.aButton2 {
+    background-color: rgb(202, 52, 202);
+    color: white;
+    border: 3.5px solid black;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 97.5%;
+        padding: 5px;
+    }
+}
